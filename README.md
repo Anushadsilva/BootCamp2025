@@ -4,14 +4,6 @@ Make a new audit branch for that table with PyIceberg create_branch function
 In the script that adds a new daily summary file to the daily partition every day
 
 Assignment 2 - AirFlow:
-Startup:
-
-To start working on this homework you'll need to:
-Copy the starter_dag.py file into airflow-dbt-project/dags and use astro dev start to start working
-Requirements
-Using Airflow, the Polygon API and Tabular
-
-Do the following things:
 
 Create a daily partitioned table in Iceberg that tracks the price of MAANG stocks (and others if you want)
 Create a script that loads the data from polygon into the Iceberg staging table
