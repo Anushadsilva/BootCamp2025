@@ -25,6 +25,23 @@ Read Drug_Use_Data_from_Selected_Hospitals.csv using schema inference and a user
 Compare schema differences and analyze the results
 
 
+Assignment 4 - Databricks Spark
+
+Create a partitioned Fact Delta table from the files at /Volumes/tabular/dataexpert/tweets
+From the Fact Table, create a smaller dimension table that ranks users based on Tweet volume
+Force a broadcast join between the dimension table and the fact table to create an aggregate table with interesting metrics
+Percent top ten tweeter
+Percent from big accounts (>100k followers))
+Other things you might find interesting
+
+
+Assignment 5 - Analytical Patterns Homework
+
+Using bootcamp.web_events and bootcamp.devices
+Build a cumulative retention query that shows how many users are still active two weeks, a month and 3 months after their first active date
+Build an aggregation of bootcamp.web_events and bootcamp.devices and look at the year-over-year and month-over-month growth of iPhone users and Android users
+
+
 
 
 
